@@ -1,0 +1,16 @@
+[test-hosts]
+ashdale
+lumbridge
+edgeville
+jatizso
+
+[test-all-but-ntpd]
+ashdale
+lumbridge
+edgeville
+
+[new]
+10.10.210.115
+
+[pxe-test]
+10.10.210.109

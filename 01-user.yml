@@ -1,0 +1,9 @@
+---
+
+- hosts: new
+  user: root
+  vars_files:
+  - defaults/main.yml
+  - defaults/pass.yml
+  roles:
+  - role: user

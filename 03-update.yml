@@ -1,0 +1,11 @@
+---
+
+- hosts: all
+  user: ansible
+  become: yes
+  vars_files:
+  tasks:
+    - name: Update all
+      yum:
+        name: "*"
+        state: latest

@@ -1,0 +1,7 @@
+---
+
+- src: https://github.com/QCU87Z/role-user
+  name: user
+
+- src: https://github.com/QCU87Z/role-Common
+  name: common

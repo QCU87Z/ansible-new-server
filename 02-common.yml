@@ -1,0 +1,10 @@
+---
+
+- hosts: new
+  user: ansible
+  become: yes
+  vars_files:
+  - defaults/02.yml
+
+  roles:
+  - role: common
