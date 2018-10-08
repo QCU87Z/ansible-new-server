@@ -1,2 +1,2 @@
 ---
-install_packages: [vim, htop, net-tools, qemu-guest-agent]
+install_packages: [vim, htop, net-tools, ack]

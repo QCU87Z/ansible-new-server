@@ -1,6 +1,6 @@
 ---
 
-- hosts: all
+- hosts: new
   user: ansible
   become: yes
   vars_files:
