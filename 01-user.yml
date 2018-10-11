@@ -1,6 +1,6 @@
 ---
 
-- hosts: new
+- hosts: all
   user: root
   vars_files:
   - defaults/main.yml
